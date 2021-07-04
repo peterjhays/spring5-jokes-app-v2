@@ -1,8 +1,5 @@
-package guru.springframework.jokesapp;
+package guru.springframework.spring5jokesappv2;
 
-import guru.springframework.jokesapp.controllers.ChuckNorrisController;
-import guru.springframework.jokesapp.services.ChuckNorrisService;
-import guru.springframework.jokesapp.services.ChuckNorrisServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -14,7 +11,7 @@ public class JokesAppApplication {
 
         ApplicationContext context = SpringApplication.run(JokesAppApplication.class, args);
 
-//        ChuckNorrisService chuckNorrisService = context.getBean("checkNorrisService", ChuckNorrisService.class);
+//        ChuckNorrisService chuckNorrisService = context.getBean("chuckNorrisService", ChuckNorrisService.class);
 
 //        ChuckNorrisService chuckNorrisService = new ChuckNorrisServiceImpl();
 //
